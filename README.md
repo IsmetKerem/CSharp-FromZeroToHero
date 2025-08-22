@@ -32,6 +32,9 @@ Parametreli ve değer döndüren metotlarla kodu daha düzenli hale getirmeyi ö
 ## 🗄️ Proje 9: SQL ile İlk Adım
 `SqlConnection`, `SqlCommand` kullanarak C# üzerinden veritabanı bağlantısı kurmayı öğrendim.
 
+## 🚀 Proje 10: Database CRUD (ADO.NET)
+Bu projenin temel amacı, bir yazılım geliştiricinin en sık karşılaşacağı senaryolardan biri olan **veritabanı ile etkileşim** sürecini öğrenmek ve pratik etmektir. Daha önceki projelerde yalnızca konsol ekranına yazı yazma, kullanıcıdan giriş alma, döngülerle veri işleme gibi konularla ilgilenirken; bu projede artık gerçek bir **veri kaynağı** olan SQL veritabanı ile bağlantı kurmayı deneyimledim.  
+Amacım sadece tablolar üzerinde CRUD (Create, Read, Update, Delete) işlemlerini yapmak değil, aynı zamanda **uygulama ile veritabanı arasındaki ilişkiyi** kavramak, SQL sorgularının yazılımla nasıl entegre edildiğini görmek ve ileride karşılaşacağım daha büyük projelere sağlam bir temel oluşturmaktı.  
 
 
 ---
