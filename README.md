@@ -36,6 +36,38 @@ Parametreli ve değer döndüren metotlarla kodu daha düzenli hale getirmeyi ö
 Bu projenin temel amacı, bir yazılım geliştiricinin en sık karşılaşacağı senaryolardan biri olan **veritabanı ile etkileşim** sürecini öğrenmek ve pratik etmektir. Daha önceki projelerde yalnızca konsol ekranına yazı yazma, kullanıcıdan giriş alma, döngülerle veri işleme gibi konularla ilgilenirken; bu projede artık gerçek bir **veri kaynağı** olan SQL veritabanı ile bağlantı kurmayı deneyimledim.  
 Amacım sadece tablolar üzerinde CRUD (Create, Read, Update, Delete) işlemlerini yapmak değil, aynı zamanda **uygulama ile veritabanı arasındaki ilişkiyi** kavramak, SQL sorgularının yazılımla nasıl entegre edildiğini görmek ve ileride karşılaşacağım daha büyük projelere sağlam bir temel oluşturmaktı.  
 
+## ⚡ Proje 11: Seyahat İstatistik Paneli  
+
+
+Bu projenin temel amacı, **Entity Framework** aracılığıyla bir seyahat veritabanındaki bilgileri sorgulayıp, kullanıcıya **Windows Forms tabanlı istatistik paneli** üzerinden görselleştirilmiş bir şekilde sunmaktır.  
+Klasik veritabanı uygulamalarında ham verilerin listelenmesi yeterli olabilir; ancak bu projede hedefim verileri sadece göstermek değil, onları işleyerek **istatistiksel anlamlar çıkarmak ve kullanıcıya değerli bilgiler sunmaktı**.  
+Böylece kullanıcı, sistemde kayıtlı lokasyonları, turları, rehberleri ve kapasite bilgilerini tek bakışta görebilecek; ayrıca belirli şehir, ülke veya rehber bazlı detaylı filtrelemelerle derinlemesine analiz yapabilecektir.  
+Bu yaklaşım sayesinde proje yalnızca bir veritabanı sorgulama aracı değil, aynı zamanda **karar destek sistemi** işlevi gören bir panel haline geldi.  
+
+### 🛠️ Özellikler  
+- 📌 Toplam lokasyon sayısının hesaplanması  
+- 📌 Kapasite, rehber sayısı gibi genel bilgilerin gösterilmesi  
+- 📌 Ortalama kapasite ve fiyat gibi istatistiksel değerlerin kullanıcıya sunulması  
+- 📌 Belirli bir şehir ya da ülkeye ait verilerin özel olarak filtrelenmesi  
+- 📌 Maksimum kapasite ve fiyat gibi en yüksek değerlere sahip şehirlerin tespit edilmesi  
+- 📌 Belirli bir rehberin sorumlu olduğu tur sayısının bulunması  
+
+### 🧑‍💻 Kazanımlarım  
+- **Entity Framework** ile veritabanına bağlanma, veri çekme ve LINQ sorguları yazma becerilerimi geliştirdim.  
+- **Windows Forms** üzerinde verileri görsel ve kullanıcı dostu bir şekilde sunmayı öğrendim.  
+- Ham verileri işleyip **istatistiksel sonuçlara dönüştürme** mantığını pekiştirdim.  
+- Kullanıcıya sadece bilgi değil, **yorumlanabilir sonuçlar** sağlayarak uygulamanın faydasını artırmayı deneyimledim.  
+
+### 🖼️ Ekran Görüntüsü  
+Aşağıda projeden bir ekran görüntüsü yer almaktadır:  
+<img width="869" height="573" alt="onizleme" src="https://github.com/user-attachments/assets/ef468792-fe8f-44c7-a8bc-40e938fcca8d" />
+
+
+
+### 📊 Sonuç  
+Bu proje, bana sadece **veritabanı sorgulamayı** öğretmekle kalmadı; aynı zamanda bu verileri **anlamlı istatistiklere dönüştürmeyi** de öğretti.  
+Görsel bir arayüzle desteklenen bu yaklaşım, uygulamayı daha etkili ve kullanıcı dostu hale getirdi.  
+
 
 ---
 
