@@ -69,6 +69,88 @@ Bu proje, bana sadece **veritabanı sorgulamayı** öğretmekle kalmadı; aynı 
 Görsel bir arayüzle desteklenen bu yaklaşım, uygulamayı daha etkili ve kullanıcı dostu hale getirdi.  
 
 
+# 💰 Final Proje: Financial CRM  
+
+## 📌 Amaç  
+Bu projenin amacı, **Entity Framework** kullanarak kullanıcıların finansal verilerini yönetmesini, analiz etmesini ve görselleştirmesini sağlayan kapsamlı bir CRM uygulaması geliştirmektir. Kullanıcıların gelir, gider, banka hesapları ve faturalarını tek bir platform üzerinden kolayca yönetebilmesini sağlayan bu uygulama, kişisel finans süreçlerini düzenlemeyi ve takip etmeyi hedefler.
+Windows Forms tabanlı bu proje, modern bir CRM mantığını kişisel finans yönetimine uyarlayarak kullanıcıya sade, anlaşılır ve işlevsel bir deneyim sunar.
+
+Teknik açıdan proje şu hedeflere odaklanmıştır:  
+- **Entity Framework ORM** ile veritabanı işlemlerini kolaylaştırmak ve ham SQL ihtiyacını ortadan kaldırmak.  
+- **LINQ sorguları** ile dinamik filtreleme, raporlama ve analiz yapmak.  
+- **CRUD (Create, Read, Update, Delete)** işlemlerini Windows Forms üzerinden kullanıcıya basit ve hızlı bir şekilde sunmak.  
+- **Katmanlı mimari** yaklaşımıyla sürdürülebilir ve ölçeklenebilir bir yapı kurmak.  
+- **Finansal verilerin görselleştirilmesi** için Windows Forms grafik kontrollerini kullanmak.  
+- Kullanıcı dostu bir arayüz ile bankalar, giderler, faturalar ve kategoriler arasında etkileşim sağlamak.  
+
+Bu proje sayesinde kullanıcılar yalnızca finansal verilerini listeleyip yönetmekle kalmaz, aynı zamanda **istatistiksel analiz ve karar destek sistemi** gibi işlevlerden de yararlanabilir.  
+
+---
+
+## ⚙️ Mimari Yapı  
+Proje **katmanlı mimari** yapısına uygun olarak geliştirilmiştir:  
+- **Veri Katmanı (Entity Framework / DbContext)** → SQL Server ile iletişim sağlar.  
+- **İş Katmanı (Business Logic)** → LINQ sorguları ile istatistiksel hesaplamalar ve iş kuralları uygulanır.  
+- **Sunum Katmanı (Windows Forms)** → Kullanıcıya görseller, tablolar ve raporlar sunulur.  
+
+---
+
+## 🛠 Kullanılan Teknolojiler  
+- **C# (.NET Framework / Windows Forms)**  
+- **Entity Framework**  
+- **SQL Server**  
+- **LINQ**  
+- **Windows Forms Chart Controls**  
+
+---
+
+## 📊 Proje Özellikleri  
+- **Login Paneli** → Kullanıcı adı ve şifre ile giriş.  
+- **Kategori Yönetimi** → Kategori ekleme, güncelleme, silme.  
+- **Banka Yönetimi** → Banka hesaplarının bakiyelerini görselleştirme.  
+- **Fatura Yönetimi** → Faturaların eklenmesi, silinmesi, güncellenmesi.  
+- **Gider Yönetimi** → Harcamaların kategori bazlı takibi.  
+- **Dashboard** → Genel finansal özet, son işlemler ve istatistik grafikler.  
+
+---
+
+## 📸 Ekran Görüntüleri  
+
+### 🔑 Login  
+<img width="1292" height="771" alt="Login" src="https://github.com/user-attachments/assets/1fc58652-09fb-457d-869a-1d292f53e322" />
+
+
+### 📂 Kategoriler  
+<img width="1297" height="766" alt="category" src="https://github.com/user-attachments/assets/60a92e7a-59b9-43c5-aecc-2ee78831be95" />
+
+
+### 🏦 Bankalar  
+ <img width="1291" height="766" alt="Bank" src="https://github.com/user-attachments/assets/eceaaded-5a43-4a8d-9d3f-bbb518c22562" />
+
+
+### 💸 Giderler  
+  <img width="1291" height="769" alt="Expenses" src="https://github.com/user-attachments/assets/a3733b16-04b7-4858-99b7-f5e8d21199a3" />
+
+
+### 📑 Faturalar  
+<img width="1278" height="763" alt="Bills" src="https://github.com/user-attachments/assets/d4adeed8-2826-4525-916c-ee7d31b0c640" />
+  
+
+### 📊 Dashboard  
+<img width="1284" height="767" alt="dashboard" src="https://github.com/user-attachments/assets/6b372fa8-364a-41fa-9540-f0982353080d" />
+
+
+---
+
+## 🎯 Kazanımlar  
+- **Entity Framework** ile ORM kullanımı ve veritabanı yönetimi.  
+- **LINQ** ile dinamik sorgulama ve veri filtreleme.  
+- **Katmanlı mimari** ile modüler ve sürdürülebilir yapı oluşturma.  
+- **Windows Forms** üzerinde kullanıcı dostu ekranlar geliştirme.  
+- Gerçek hayata uyarlanabilecek bir **finans yönetim sistemi** tasarlama.  
+
+
+
 ---
 
 ## 🎯 Hedeflerim
